@@ -1,0 +1,31 @@
+.header-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 10px 3rem;
+}
+.content-nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-menu__logo{
+    width: 100px;
+}
+
+.nav_content ul.sb-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 1rem;
+}
+.nav_content ul.sb-menu li.menu-item{
+    list-style: none;  
+}
+.nav_content ul.sb-menu li.menu-item > a{
+    color: brown;
+    font-weight: 700;
+    font-family: var(--primary-font);
+    text-decoration: none;  
+}

@@ -1,0 +1,74 @@
+
+/* 
+** TYPOGRAPHIC */
+
+/** Cabin */
+@font-face {
+    font-family: "cabin";
+    src: url('../fonts/Cabin/Cabin-VariableFont_wdth\,wght.ttf');
+}
+@font-face {
+    font-family: "anton";
+    src: url('../fonts/Anton/Anton-Regular.ttf');
+}
+
+/** Anton */
+
+
+/* 
+** Variables */
+
+:root{
+    /*colors*/
+    --primary-color: brown;
+
+    /*fonts*/
+    --primary-font: 'cabin', sans-serif;
+    --secondary-font: 'anton', sans-serif;
+}
+
+/*
+** GLOBAlS STYLES
+*/
+
+html, body{
+    font-size: 16px !important;
+    margin-top: 0 !important;
+    margin: 0 !important;
+    font-family: var(--primary-font);
+}
+.page-site{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+/**layouts*/
+.row-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.row-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.row-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

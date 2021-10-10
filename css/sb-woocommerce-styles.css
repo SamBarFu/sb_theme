@@ -1,0 +1,24 @@
+.woocommerce {
+  padding: 20px 10%;
+}
+
+.woocommerce input[type="text"],
+.woocommerce input[type="tel"],
+.woocommerce input[type="email"]   {
+  height: 30px;
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+.woocommerce .button{
+  display: block;
+  border: none;
+  background-color: black !important;
+  color: white;
+  padding: 10px 20px;
+  margin: .5rem 0;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0 !important;
+}

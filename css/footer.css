@@ -1,0 +1,11 @@
+.sb-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 4rem;
+    background-color: brown;
+    color: burlywood;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
